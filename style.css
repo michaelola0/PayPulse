@@ -7,3 +7,48 @@
     font-family: "Urbanist", serif;
 }
 
+/* Desktop Styling */
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0px auto;
+    align-items: center;
+    height: 112px;
+}
+
+.nav-logo{
+    width: 172.14px;
+    height: 48px;
+}
+
+.nav-menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style-type: none;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #1D1E25;
+    font-size: 16px;
+}
+
+.button{
+    padding: 14px 29px;
+    background-color: #4759F9;
+    border: 0px solid;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
