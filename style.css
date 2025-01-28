@@ -195,3 +195,16 @@
     max-width: 454px;
     margin: 0px auto;
 }
+
+
+/* feature-section styling */
+.feature-section{
+    padding: 112px 24px;
+}
+
+.features_component{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
