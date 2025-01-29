@@ -67,7 +67,20 @@
         line-height: 70px;
     }
 
-    .lead-para{
+    .h4-heading {
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1px;
+    }
+
+    .h2-heading {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 65px;
+    }
+
+    .lead-para {
         font-size: 18px;
         line-height: 28px;
         font-weight: 400;
@@ -95,6 +108,17 @@
         color: #454C5D;
     }
 
+    .grey-2 {
+        background-color: #F4F5FF;
+    }
+
+    .success {
+        background-color: #EFFBF7;
+    }
+
+    .accent-light {
+        background-color: #FFFAF3;
+    }
 
 /* Hero Section */
 .hero-section{
@@ -207,4 +231,28 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
     gap: 20px;
+}
+
+.features-card {
+    padding: 72px 64px;
+    border-radius: 17.54px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 32px;
+}
+
+.feature-card-item {
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.features-card-icon {
+    width: 129px;
+    height: 128px;
 }
