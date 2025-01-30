@@ -8,6 +8,10 @@
 }
 
 /* Desktop Styling */
+.notice {
+    display: none;
+}
+
 .nav-wrapper{
     display: flex;
     align-items: center;
@@ -530,4 +534,34 @@
 .paid-user-images {
     width: 72px;
     height: 24px;
+}
+
+
+/* Tablet */
+@media (max-width:1140px) {
+    body {
+        background-color: #4759F9;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 24px;
+    }
+
+    .nav-wrapper {
+        display: none;
+    }
+
+    main {
+        display: none;
+    }
+
+    .notice {
+        display: block;
+        font-size: 24px;
+        text-align: center;
+
+    }
 }
