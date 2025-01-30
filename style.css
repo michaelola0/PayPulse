@@ -92,6 +92,12 @@
         font-weight: 400;
     }
 
+    .small-para {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
 
 /* Color Styling */
 
@@ -116,6 +122,10 @@
             color: #DCDFFF;
         }
 
+        .accent-blue {
+            color: #4759F9;
+        }
+
     /* Background */
         .accent-2{
             background-color: #FEAE37;
@@ -127,6 +137,10 @@
 
         .success {
             background-color: #EFFBF7;
+        }
+
+        .bg-white {
+            background-color: white;
         }
 
         .accent-light {
@@ -325,6 +339,18 @@
 
 }
 
+.plan-shadow {
+    box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+.plan-right {
+    margin-left: 24px;
+}
+
+.plan-left {
+    margin-right: 24px;
+}
+
 .why-list-wrap {
     list-style: none;
     display: flex;
@@ -338,3 +364,54 @@
     justify-content: left;
     gap: 16px;
 }
+
+/* Benefit section */
+.benefit-section {
+    padding: 112px 24px;
+}
+
+.benefit_component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.benefit-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    max-width: 630px;
+    gap: 40px;
+}
+
+.benefit-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.benefit-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.benefit-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.benefit-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+}
+
+/* Paid Section */
