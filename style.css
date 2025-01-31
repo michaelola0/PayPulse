@@ -80,6 +80,13 @@
         line-height: 70px;
     }
 
+    .h3-heading {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: -0.88px;
+    }
+
     .h4-heading {
         font-size: 38px;
         font-weight: 700;
@@ -154,6 +161,10 @@
 
         .bg-white {
             background-color: white;
+        }
+
+        .bg-grey {
+            background-color: #DCDFFF;
         }
 
         .accent-light {
@@ -535,6 +546,84 @@
     width: 72px;
     height: 24px;
 }
+
+/* Feedback section */
+.feedback-section {
+    padding: 112px 24px;
+    overflow: hidden;
+}
+
+.feedback_component {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    position: relative;
+}
+
+.feedback-title {
+    display: flex;
+    flex-direction: column;
+    justify-self: right;
+}
+
+.feedback-slide {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.feedback-slide {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.f-slide-content {
+    width: 60%;
+    min-height: 428.06px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+
+.testimonial-icon {
+    width: 81px;
+    height: 41px;
+}
+
+.testimonial-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+}
+
+.slider-control {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 8px;
+}
+
+.slider-dot {
+    width: 14.06px;
+    height: 14.06px;
+    border-radius: 999px;
+}
+
+.testimonial-img {
+    height: 393px;
+    position: absolute;
+    right: -7%;
+    bottom: 0;
+}
+
+
+
+
+
+
 
 
 /* Tablet */
