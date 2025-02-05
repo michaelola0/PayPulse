@@ -49,6 +49,10 @@
     font-size: 1rem;
 }
 
+.nav-menu-toggle {
+    display: none;
+}
+
 
 /* Button Styling */
     .button{
@@ -197,7 +201,7 @@
 
     
 
-/* Hero Section */
+/* Desktop Hero Section */
 .hero-section{
     width: 100%;
     /* height: 1043px; */
@@ -859,10 +863,188 @@
 }
 
 
+/* Tablet Styling */
+@media (max-width:1145px) {
+    /* Tablet Navbar */
+        .nav-wrapper{
+            display: flex;
+            align-items: center;
+            padding: 0px 4.5rem;
+        }
+        
+        .navbar{
+            height: 6rem;
+        }
+        
+        .nav-logo{
+            width: 10.75rem;
+            height: 3rem;
+        }
+        
+        .nav-menu-list {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            list-style-type: none;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        
+        .nav-link{
+            text-decoration: none;
+            color: #1D1E25;
+            font-size: 1rem;
+        }
+        
+        .nav-menu-toggle {
+            display: none;
+        }
+
+    
+    /* Desktop Hero Section */
+        .hero-section{
+            width: 100%;
+            /* height: 1043px; */
+            position: relative;
+            padding: 7rem 4.5rem 3rem 4.5rem;
+        }
+
+        .hero-bg{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 80%;
+            object-fit: cover;
+        }
+
+        .container{
+            width: 100%;
+            max-width: 80rem;
+            margin: 0px auto;
+        }
+
+        .hero_component{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 1.25rem;
+            align-items: start;
+        }
+
+        .hero-text-content{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+            z-index: 2;
+        }
+
+        .hero-main-text{
+            display: flex;
+            flex-direction: column;
+            gap: 3.5rem;
+        }
+
+        .hero-text-top{
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+        }
+
+        .hero-tag-wrap{
+            display: flex;
+            flex-direction: row;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .hero-tag{
+            padding: 0.25rem 1rem;
+            border-radius: 0.625rem;
+            font-size: 0.875rem;
+            line-height: 1.375rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-h1-wrap{
+            max-width: 40rem;
+        }
+
+        .hero-subtext{
+            max-width: 33.3125rem;
+        }
+
+        .hero-btn-group{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .hero-btn{
+            width: 12.25rem;
+            height: 4rem;
+        }
+
+        .hero-image-wrap{
+            width: 40%;
+            z-index: 2;
+        }
+
+        .hero-image{
+            width: 100%;
+            max-width: 28.375rem;
+            margin: 0px auto;
+        }
+}
 
 
 
-/* Tablet */
+/* Mobile Styling */
+@media (max-width:1024px) {
+    /* Tablet Navbar */
+        .nav-wrapper{
+            display: flex;
+            align-items: center;
+            padding: 0px 1.5rem;
+        }
+        
+        .navbar{
+            height: 6rem;
+        }
+        
+        .nav-logo{
+            width: 10.75rem;
+            height: 3rem;
+        }
+        
+        .nav-menu-list {
+            display: none;
+        }
+        
+        .nav-link{
+            text-decoration: none;
+            color: #1D1E25;
+            font-size: 1rem;
+        }
+        
+        .nav-menu-toggle {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+}
+
+
+
+
+
+/* Tablet and mobile Temp
 @media (max-width:1140px) {
     body {
         background-color: white;
@@ -894,3 +1076,4 @@
         display: none;
     }
 }
+     */
