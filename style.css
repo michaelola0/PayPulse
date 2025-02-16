@@ -493,7 +493,7 @@
     gap: 1rem;
 }
 
-/* Paid Section */
+/* Desktop Paid Section */
 .section-paid {
     padding: 2.5rem 1.5rem 0px 1.5rem;
     overflow: hidden;
@@ -553,7 +553,7 @@
     height: 1.5rem;
 }
 
-/* Feedback section */
+/* Desktop Feedback section */
 .feedback-section {
     padding: 7rem 1.5rem;
     overflow: hidden;
@@ -1046,6 +1046,85 @@
         gap: 1rem;
     }
 
+    /* Tablet Section Paid */
+    .section-paid {
+        padding: 2.5rem 72px 0px 1.5rem;
+        overflow: hidden;
+    }
+
+
+    /* Tablet Feedback section */
+    .feedback-section {
+        padding: 56px 72px;
+        overflow: hidden;
+    }
+
+    .feedback_component {
+        display: flex;
+        flex-direction: column;
+        gap: 4.5rem;
+        position: relative;
+    }
+
+    .feedback-title {
+        display: flex;
+        flex-direction: column;
+        justify-self: right;
+    }
+
+    .feedback-slide {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .feedback-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+
+    .feedback-slide-content {
+        width: 90%;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 2.5rem;
+    }
+
+    .testimonial-icon {
+        width: 5.0625rem;
+        height: 2.5625rem;
+    }
+
+    .testimonial-info {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 0.5rem;
+    }
+
+    .slider-control {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        gap: 0.5rem;
+    }
+
+    .slider-dot {
+        width: 0.87875rem;
+        height: 0.87875rem;
+        border-radius: 65rem;
+    }
+
+    .testimonial-img {
+        height: 24.5625rem;
+        right: -73px;
+        position: relative;
+        align-self: flex-end;
+    }
 }
 
 
@@ -1419,6 +1498,144 @@
         flex-direction: column;
         align-items: start;
         gap: 1rem;
+    }
+
+
+        /* Desktop Paid Section */
+    .section-paid {
+        padding: 2.5rem 1.5rem 0px 1.5rem;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .paid_component {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1.25rem;
+    }
+
+    .paid-img-wrap {
+        width: 100%;
+        max-width: 283.5px;
+        position: static;
+    }
+
+    .paid-image {
+        width: 100%;
+        position: relative;
+        bottom: -0.3125rem;
+        z-index: 2;
+    }
+
+    .paid-bg-element {
+        position: absolute;
+        width: 55.25rem;
+        top: 0px;
+        left: 0px;
+    }
+
+    .paid-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        align-self: self-start;
+        gap: 2.5rem;
+        position: relative;
+        z-index: 2;
+    }
+
+    .paid-content-top {
+        width: 100%;
+        max-width: 32.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .paid-user-wrap {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .paid-user-images {
+        width: 4.5rem;
+        height: 1.5rem;
+    }
+
+
+    /* Mobile Feedback section */
+    .feedback-section {
+        padding: 56px 24px;
+        overflow: hidden;
+    }
+
+    .feedback_component {
+        display: flex;
+        flex-direction: column;
+        gap: 4.5rem;
+        position: relative;
+    }
+
+    .feedback-title {
+        display: flex;
+        flex-direction: column;
+        justify-self: right;
+        padding-left: 10%;
+    }
+
+    .feedback-slide {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .feedback-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+
+    .feedback-slide-content {
+        width: 90%;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 2.5rem;
+    }
+
+    .testimonial-icon {
+        width: 5.0625rem;
+        height: 2.5625rem;
+    }
+
+    .testimonial-info {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 0.5rem;
+    }
+
+    .slider-control {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        gap: 0.5rem;
+    }
+
+    .slider-dot {
+        width: 0.87875rem;
+        height: 0.87875rem;
+        border-radius: 65rem;
+    }
+
+    .testimonial-img {
+        height: 16rem;
+        right: -25px;
+        position: relative;
+        align-self: flex-end;
     }
 }
 
