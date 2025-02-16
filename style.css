@@ -994,6 +994,58 @@
     .why-section {
         padding: 56px 72px;
     }
+
+
+    /* Tablet Benefit section */
+    .benefit-section {
+        padding:  56px 72px;
+    }
+
+    .benefit_component {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .benefit-title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        max-width: 39.375rem;
+        gap: 2.5rem;
+    }
+
+    .benefit-grid {
+        width: 100%;
+        max-width: 630px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+    }
+
+    .benefit-card {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1.5rem;
+        padding: 2rem;
+        border-radius: 0.5rem;
+    }
+
+    .benefit-icon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .benefit-card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+    }
+
 }
 
 
@@ -1252,7 +1304,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        gap: 48px;
+        gap: 64px;
         max-width: 55.375rem;
         position: relative;
     }
@@ -1268,7 +1320,7 @@
     .why-plan-vs-wrap {
         position: absolute;
         z-index: 3;
-        bottom: 50%;
+        top: 43%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1315,6 +1367,57 @@
         display: flex;
         flex-direction: row;
         justify-content: left;
+        gap: 1rem;
+    }
+
+
+    /* Mobile Benefit section */
+    .benefit-section {
+        padding:  56px 24px;
+    }
+
+    .benefit_component {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .benefit-title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        max-width: 39.375rem;
+        gap: 2.5rem;
+    }
+
+    .benefit-grid {
+        width: 100%;
+        max-width: 305px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.25rem;
+    }
+
+    .benefit-card {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1.5rem;
+        padding: 2rem;
+        border-radius: 0.5rem;
+    }
+
+    .benefit-icon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .benefit-card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
         gap: 1rem;
     }
 }
